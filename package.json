@@ -1,0 +1,22 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node -e 'console.clear()' && bun run ./src/index.js"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.19",
+    "axios": "^1.9.0",
+    "bytes": "^3.1.2",
+    "chalk": "^5.4.1",
+    "figures": "^6.1.0",
+    "inquirer": "^12.6.1",
+    "mime-types": "^3.0.1",
+    "ora": "^8.2.0",
+    "strip-ansi": "^7.1.0"
+  }
+}
